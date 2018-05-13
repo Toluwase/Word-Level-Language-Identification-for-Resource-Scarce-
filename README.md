@@ -11,6 +11,6 @@
 <h4>Operating instructions</h4>
 <p></p>
 <h4>Copyright and licensing information</h4>
-<p>You do not have the right to reproduce the datasets or the computer program that is made available to the public for commercial purpose. On the other hand, you have the permission to use the datasets and computer program for research, teaching and educational purposes without free of charge.</p>
+<p>You do not have the right to reproduce the datasets or the computer program made available on this account for commercial purposes. On the other hand, you have the permission to use the datasets and computer program for research, teaching and educational purposes free of charge.</p>
 <p>Please, cite these datasets, computer program and the associated corpora as: <br>
 Asubiaro, T., Adegbola, T., Mercer, R. and Ajiferuke, I. (2018). A Word-Level Language Identification Strategy for Resource-Scarce Languages. In 2018 Conference of The Association for Information Science and Technology, Vancouver, BC, Canada - Nov. 10 - 14, 2018.</br></p>
