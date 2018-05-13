@@ -5,11 +5,12 @@
 <p>There are three types of Files</p>
 <ol>
   <li>Python Program: The Python program is contained in a python file named trigramAnalyzer.py. Kindly refer to the Operating Instructions for details of the Python program</li>
-  <li>Corpora: </li>
+  <li>Corpora:  </li>
   <li>Result of the Research: The result of the research include the research result, character trigram-frequency and the word-frequency of English, Hausa, Igbo and Yoruba texts used for the research. These results are presented in Trigams.xls and WORDList&Results.xls files for the trigrams-frequency, and word-frequency/results of the research respectively</li>
 </ol>
 <h4>Operating instructions</h4>
 <p></p>
-<h4>Copyright and licensing information<h4>
-<p>Please cite this data and the associated corpora as: <br>
+<h4>Copyright and licensing information</h4>
+<p>You do not have the right to reproduce the datasets or the computer program that is made available to the public for commercial purpose. On the other hand, you have the permission to use the datasets and computer program for research, teaching and educational purposes without free of charge.</p>
+<p>Please, cite these datasets, computer program and the associated corpora as: <br>
 Asubiaro, T., Adegbola, T., Mercer, R. and Ajiferuke, I. (2018). A Word-Level Language Identification Strategy for Resource-Scarce Languages. In 2018 Conference of The Association for Information Science and Technology, Vancouver, BC, Canada - Nov. 10 - 14, 2018.</br></p>
