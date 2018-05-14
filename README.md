@@ -6,7 +6,7 @@
 <p>There are three types of Files</p>
 <ol>
   <li>Python Program: The Python program is contained in a python file named trigramAnalyzer.py. Kindly refer to the Operating Instructions for details of the Python program</li>
-  <li>Corpora:  </li>
+  <li>Corpora:  Hausa, Igbo and Yoruba texts are provided on this repository; all the corpora have been largely cleaned of foreign words. Though the corpora have been cleaned, the sentence structures are still maintained. The Hausa corpus has a text size of 190,833 with vocabulary size of 9,247. The Hausa corpus is not marked, that is the diacritically marked characters have been replaced with the unmarked equivalents. The Hausa corpus was harvested online from news and Christian religion organizations' websites. The Igbo corpus is fully diacritically marked, it has a text size of 125,690 with a vocabulary size of 6,737. The Igbo corpus was also harvested online largely from news and Christian religion organizations' websites. The Yoruba corpus is a part of the larger corpus that was used for this research that could be made available to the public; other part cannot be made available because of copyright issues. </li>
   <li>Research Result: The research results include the research analysis, character trigram-frequency and the word-frequency of English, Hausa, Igbo and Yoruba texts used for the research. These results are presented in Trigams.xls and WORDList&Results.xls files for the trigrams-frequency, and word-frequency/research analysis respectively</li>
 </ol>
 <h4>Operating instructions</h4>
