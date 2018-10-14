@@ -12,7 +12,17 @@
   <li>Research Result: The research results include the research analysis, character trigram-frequency and the word-frequency of English, Hausa, Igbo and Yoruba texts used for the research. These results are presented in Trigams.xls and WORDList&Results.xls files for the trigrams-frequency, and word-frequency/research analysis respectively</li>
 </ol>
 <h4>Operating instructions</h4>
-<p></p>
+  <p>This section of the readme highlights the description of the Python code named trigramanalyzer_wordlanguageid.py</p>
+  <h5>Stage one: Obtaining the Character Trigrams for the two languages</h5>
+<p>This program is meant to find the character trigrams, based on their positions (single, pre, mid and post) in two languages.
+It calculates the probability of occurrence of the character trigrams in the two languages by reading text in the languages from specified text files which must be saved in UTF-8. The probability of occurrence of trigrams in each language equals to co-efficient of discrimination/identification.</p>
+  <h5>Stage two: Overlapping trigrams</h5>
+<p>In addition, it obtains the trigrams that are common to the two languages. The co-efficient of discrimination/identification for the trigrams that are common to the two languages equals zero (in place of the probability of occurence). </p>
+  <h5>Stage three: The Language Identification of a word<h5> 
+ Addition of the co-efficient of discrimination/identification for all the character trigrams in a word gives the LID of the word. </p>
+    <p>If the LID of a word >0, the word belongs to the main language </p>
+    <p>If the LID of a word <0, the word belongs to the other language </p>
+    <p>If the LID of a word =0, the word belongs to the two languages or the word cannot be identified</p>
 <h4>Copyright and licensing information</h4>
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Asubiaro, T., Adegbola, T., Mercer, R. and Ajiferuke, I. (2018). A Word-Level Language Identification Strategy for Resource-Scarce Languages. In 2018 Conference of The Association for Information Science and Technology, Vancouver, BC, Canada - Nov. 10 - 14, 2018</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
 
