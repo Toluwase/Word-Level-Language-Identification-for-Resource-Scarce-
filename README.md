@@ -1,6 +1,8 @@
 # <h3>Word-Level Language Identification for Resource-Scarce Languages<h3> 
 <h4>Definition of Terms</h4>
 <p>'This repository' refers to all the resources which are accessed through this hyperlink or url: https://github.com/Toluwase/Word-Level-Language-Identification-for-Resource-Scarce-/</p>
+  <p>The word-level language identification in this study refers to identifying the language of words in texts.</p>
+  <p> This study uses the term the main language, which refers to the language of interest. The scope of this study is two languages, that is, one language of interest and one foreign language. In essence, a text will be in two languages: the main language and foreign language. For instance, if the main language is Yoruba, foreign language could be English. In this case text will be in Yoruba while there will be some words in English.</p>
 <h4>Introduction</h4>
 <p>This README is a description of the datasets, research results and python program contained on this page; the datasets were used for the word-level language identification research for resource-scarce languages. The word-level language identification strategy proposed in the research was performed through the pattern analysis of the character trigrams of the featured languages. Languages featured in this research are English, Hausa, Igbo and Yoruba. The word-level language identification strategy does not require large corpus which are needed in/for previous word-level language identification and other natural language processing research. Secondly, this strategy potentially works for all languages whose writing systems are alphabet-based.</p> 
 <h4>File Manifest</h4>
@@ -13,10 +15,10 @@
 </ol>
 <h4>Operating instructions</h4>
   <p>This section of the readme highlights the description of the Python code named trigramanalyzer_wordlanguageid.py</p>
-  <h5>Stage one: Obtaining the Character Trigrams for the two languages</h5>
+  <h5>Stage one: Obtaining the Character Trigrams for the Wwo Languages</h5>
 <p>This program is meant to find the character trigrams, based on their positions (single, pre, mid and post) in two languages.
 It calculates the probability of occurrence of the character trigrams in the two languages by reading text in the languages from specified text files which must be saved in UTF-8. The probability of occurrence of trigrams in each language equals to co-efficient of discrimination/identification.</p>
-  <h5>Stage two: Overlapping trigrams</h5>
+  <h5>Stage two: Obtaining the Overlapping Trigrams between the Two Languages</h5>
 <p>In addition, it obtains the trigrams that are common to the two languages. The co-efficient of discrimination/identification for the trigrams that are common to the two languages equals zero (in place of the probability of occurence). </p>
   <h5>Stage three: The Language Identification of a word</h5> 
  <p>Addition of the co-efficient of discrimination/identification for all the character trigrams in a word gives the LID of the word.</p>
