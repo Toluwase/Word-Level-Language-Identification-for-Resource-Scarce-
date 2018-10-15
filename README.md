@@ -15,7 +15,7 @@
 </ol>
 <h4>Operating instructions</h4>
   <p>This section of the readme highlights the description of the Python code named trigramanalyzer_wordlanguageid.py</p>
-  <h5>Stage one: Obtaining the Character Trigrams for the Wwo Languages</h5>
+  <h5>Stage one: Obtaining the Character Trigrams for the Two Languages</h5>
 <p>This program is meant to find the character trigrams, based on their positions (single, pre, mid and post) in two languages.
 It calculates the probability of occurrence of the character trigrams in the two languages by reading text in the languages from specified text files which must be saved in UTF-8. The probability of occurrence of trigrams in each language equals to co-efficient of discrimination/identification.</p>
   <h5>Stage two: Obtaining the Overlapping Trigrams between the Two Languages</h5>
